@@ -1,0 +1,311 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Oleo+Script:wght@400;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Lobster&family=Oleo+Script:wght@400;700&display=swap");
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ul li{
+    list-style: none;
+    display: inline;
+}
+ul li a{
+    font-size: 18px;
+}
+ul li a:hover{
+
+text-decoration: underline green;
+}
+nav a{
+    text-decoration: none;
+    color: gray;
+    margin-left: 20px;
+}
+.navber{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: whitesmoke;
+    padding: 10px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+}
+.btn{
+    color: white;
+    text-decoration: none;
+    background-color: rgb(28, 165, 97);
+    padding: 15px;
+    border-radius: 20px;
+}
+.hero-section{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;
+}
+.hero-section div{
+    margin-top: 80px;
+    margin-left: 130px;
+}
+
+.hero-section div h1{
+    width: 40%;
+    font-weight: lighter;
+    font-family: "Oleo Script", system-ui;;
+
+}
+.hero-section div p{
+    width: 40%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    line-height: 1.5;
+}
+.hero-section img{
+    width: 650px;
+    height: 650px;
+}
+/* article */
+article{
+    background-color: whitesmoke;
+    padding: 40px;
+    font-family: "Oleo Script", system-ui;
+    font-weight: 700;
+    font-style: normal;
+
+}
+article div{
+    margin-left: 100px;
+}
+.article-content div{
+margin-left: 10px;
+gap: 10px;
+}
+article h2{
+    font-weight: lighter;
+    font-size: 30px;
+}
+article .m2{
+    width: 400px;
+    margin-top: 30px;
+    line-height: 1.5;
+}
+ .article-content{
+    display: flex;
+    padding-top: 70px;
+    justify-content: space-around;
+}
+.article-content img{
+    padding-bottom: 25px;
+    gap: 15px;
+}
+.article-content p{
+    color: gray;
+    padding-top: 30px;
+    width: 230px;
+    line-height: 1.5;   
+}
+.article-content h3{
+    font-size: 25px;
+    font-weight: lighter;
+}
+.header{
+    margin-right: 150px;
+    
+}
+.header img{
+    width: 248px;
+    height: 200px;
+    border-radius: 5px;
+}
+.header h1{
+    font-weight: lighter;
+    margin-left: 150px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.header{
+    padding: 2rem;
+    margin-bottom: 3em;
+}
+.header-man{
+    display: flex;
+    margin-top: 30px;
+    margin-left: 150px;
+    justify-content: space-between;   
+}
+.author{
+    font-size: 20px;
+    color: gray;
+}
+.header-box h5{
+    font-size: 20px;
+}
+.header-box h5 a{
+    text-decoration: none;
+    color: black;
+    font-weight: lighter;
+}
+.header-man div{
+    width: 250px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background-color: #ffff;
+    box-shadow: 1px 20px 12px 1px rgba(0, 0, 0, 0);
+}
+.header-man a{
+    font-size: 20px;
+    color:black;
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: lighter;
+}
+.header-man h6{
+    font-size: 15px;
+    color: gray;
+    margin-top: 10px;
+}
+.ask{
+    background-color: rgb(29, 29, 58);
+    display: flex;
+    justify-content: space-around;
+    height: 40vh;
+    
+}
+.ask ul li a{
+    margin-top: 50px;
+}
+.images {
+    margin-left: 60px;
+
+}
+ .logo {
+    margin-top: 60px;
+    padding-bottom: 100px;
+
+}.ask .d2 .d3 .d4 li a{
+    margin-top: 60px;
+    padding: 20px;
+}
+
+ 
+.ask ul li a{
+    display: flex;
+    text-decoration:none;
+    color: white;
+    gap: 2.0;
+    justify-content: space-around;
+}
+
+.d4{
+    list-style: none;
+    margin-top: 60px;
+
+    
+}
+.d4 h3 {
+    color: white;
+    padding-top: 30px;
+
+}
+
+@media only screen and (max-width:850px) {
+    
+        .navber ul li{
+            display: none;
+        }
+        .hero-section{
+            flex-direction: column;
+            margin-left: 40px;
+            margin-top: 40px;
+        }
+        .hero-section div{
+            margin: 0;
+            margin-top: 40px;
+        }
+        .hero-section div p{
+            width: 100%;
+        }
+        .hero-section div h1{
+            width: 80%;
+        }
+        .hero-section img{
+            width: 300px;
+            height: 350px;
+            margin-top: 30px;
+        
+        }
+        article .text{
+            width: 100%;
+        }
+        article div{
+        margin-left: 5px;
+        line-height: 1.5;
+        }
+        article div h2{
+            font-size: 25px;
+            width: 300px;
+        }
+        article div .m2{
+            width: 350px;
+        }
+    
+        .article-content{
+            flex-direction: column;
+        }
+        .article-content div{
+            margin-left: 60px;
+        }
+        .article-content div img{
+            margin-top: 20px;
+        }
+        .header-man{
+            flex-direction: column;
+            margin-left: 35px;
+        }
+        .header h1{
+            margin-left: 30px;
+        }
+        .ask{
+            flex-direction: column;
+            height: 100vh;
+        }
+        .logo {
+            margin-bottom: 30px;
+            margin-left: 3rem;
+        }
+        .ask nav img{
+        margin-left: 60px;
+        }
+        .ask div{
+            margin-left: 70px;
+            margin-top: -100px;
+        
+        }
+        .ask .d2{
+            margin-top: -170px;
+            line-height: 1.5;
+            margin-left: -2rem;
+            margin-top: -10rem;
+        }
+        .ask .d3{
+            margin-top: -170px;
+            line-height: 1.5;
+            margin-left: -2rem;
+        }
+        .ask .d4 h3{
+            margin-top: 20px
+        }
+        footer .d4 .btn {
+            margin-top: -40px;
+            margin-left: 50px;
+            
+        }    
+}
+
+
+
